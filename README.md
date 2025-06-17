@@ -1,12 +1,21 @@
-# React + Vite
+# Projeto Modal React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto React que demonstra a criação de um modal, um relógio em tempo real e um formulário de contato usando React e CSS Modules.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modal:** Um componente modal simples para exibir informações.
+- **Relógio:** Exibe a hora atual atualizada a cada segundo.
+- **Formulário de Contato:** Formulário com campos para nome, email e mensagem, com validação básica e limpeza após envio.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Hooks: useState, useEffect)
+- CSS Modules para estilização modularizada
+- Vite para build e desenvolvimento rápido
+
+## Como rodar o projeto localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SeilaniF/Projeto-Modal-React.git
