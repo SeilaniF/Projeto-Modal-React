@@ -22,7 +22,8 @@ const Accordion = () => {
           key={index}
           className={`${styles.item} ${activeIndex === index ? styles.open : ''}`}>
           <button className={styles.button} onClick={() => toggleAccordion(index)}>
-            {item.question}
+            <span>{item.question}</span>
+            <span>{activeIndex === index ? '▼' : '▶'}</span>
           </button>
           {activeIndex === index && (
             <p className={styles.answer}>{item.answer}</p>
